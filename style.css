@@ -14,4 +14,71 @@
     animation-timing-function: linear;
     animation-delay: 0s;
   }
-  
+  /* Owl Carousel */
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+  display: block !important;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+display: none;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+background: none !important;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  font-size: 4rem !important;
+color: #a5a19f !important;
+font-weight: 200 !important;
+}
+.card {
+border: none;
+background-color: transparent;
+}
+.owl-theme .owl-nav [class*=owl-] {
+  margin-top: -35px !important; 
+}
+.card-body {
+padding: 0px;
+}
+.card-title p {
+margin-bottom: 0px !important;
+}
+.owl-prev {
+position: absolute;
+left: 0;
+margin: 0;
+height: 80px;
+text-align: center;
+line-height: 80px;
+transform: translateY(-50%);
+}
+.owl-next {
+position: absolute;
+right: 0;
+margin: 0;
+height: 80px;
+text-align: center;
+line-height: 80px;
+transform: translateY(-50%);
+}
+.owl-theme .owl-dots .owl-dot {
+  display: none !important;
+}
+
+/*#clnt .owl-prev {
+margin-top: -4rem !important;
+margin-left: -1rem;
+}
+
+#clnt .owl-next {
+  margin-top: -4rem !important;
+margin-right: -1rem;
+}*/
+/* Owl Carousel */
+
+
+
+
+/* Owl Carouse */
+.hone:hover {
+width: 900px;
+}

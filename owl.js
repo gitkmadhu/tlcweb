@@ -1,0 +1,72 @@
+     jQuery(document).ready(function($) {
+            $('#prjcts1').owlCarousel({
+								loop:true,
+								items:5,
+								margin:10,
+								responsiveClass:true,
+								responsive:{
+									0:{
+										items:1,
+										nav:true
+										},
+									480:{
+										items:3,
+										nav:false
+										},
+									768:{
+										items:3,
+										nav:true,
+			           					loop:true
+									}
+								}
+							})
+						});
+
+		jQuery(document).ready(function($) {
+				$('#prjcts2').owlCarousel({
+					loop:true,
+					items:5,
+					margin:10,
+					responsiveClass:true,
+					responsive:{
+						0:{
+							items:1,
+							nav:true
+							},
+						480:{
+							items:3,
+							nav:false
+							},
+						768:{
+							items:3,
+							nav:true,
+								loop:true
+						}
+					}
+				})
+			});
+			
+		jQuery(document).ready(function($) {
+			$('.clnt-one').owlCarousel({
+						loop:true,
+						items:5,
+						margin:10,
+						responsiveClass:true,
+						responsive:{
+							0:{
+								items:1,
+								nav:true
+								},
+							480:{
+								items:3,
+								nav:false
+								},
+							768:{
+								items:5,
+								nav:true,
+								loop:true
+								}
+							}
+						})
+					});
+  
